@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context=".Registrasi">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan isi data di bawah ini"
+        android:fontFamily="@font/bitter"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Lengkap"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/bitterr"
+        android:textSize="16sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="e.g Indri Andriani"
+        android:background="@drawable/border"
+        android:fontFamily="@font/bitterr"
+        android:textSize="14sp"
+        android:id="@+id/edt5nama"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:fontFamily="@font/bitterr"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="e.g andrianindr08@gmail.com"
+        android:background="@drawable/border"
+        android:fontFamily="@font/bitterr"
+        android:textSize="14sp"
+        android:id="@+id/edt6mail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:fontFamily="@font/bitterr"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="e.g Indri_99"
+        android:background="@drawable/border"
+        android:fontFamily="@font/bitterr"
+        android:textSize="14sp"
+        android:id="@+id/edt7pass"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:background="@drawable/button"
+        android:fontFamily="@font/bitter"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnsimpan"/>
+</LinearLayout>

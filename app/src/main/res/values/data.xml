@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="makanan">
+        <item>oatmeal</item>
+        <item>susu</item>
+        <item>1/4 cup nasi</item>
+        <item>1/2 cup nasi</item>
+        <item>1 cup nasi</item>
+        <item>1/4 dada ayam</item>
+        <item>1/2 dada ayam</item>
+    </string-array>
+    <integer-array name="kalori">
+        <item>150</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>100</item>
+        <item>150</item>
+    </integer-array>
+</resources>
